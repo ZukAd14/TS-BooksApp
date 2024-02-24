@@ -1,4 +1,17 @@
 .book-item  {
     padding: 1rem;
     border-bottom: 1px dashed rgba(105, 127, 238, 0.25);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .remove-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .remove-button:hover {
+    transform: translateY(-50%) scale(1.2);
   }
