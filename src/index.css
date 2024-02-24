@@ -1,13 +1,31 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Mukta;
+  background-color: #32336c;
+  background-image: linear-gradient(16deg, #32336c 26%, #5755b7 100%);
+  margin: 0;
+  color: #fff;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 40rem;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
